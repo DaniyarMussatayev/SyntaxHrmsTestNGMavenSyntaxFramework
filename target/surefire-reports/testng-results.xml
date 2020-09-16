@@ -2,23 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke Suite" duration-ms="15807" started-at="2020-09-13T16:48:54 ALMT" finished-at="2020-09-13T16:49:09 ALMT">
+  <suite name="Smoke Suite" duration-ms="20560" started-at="2020-09-13T16:56:11 ALMT" finished-at="2020-09-13T16:56:31 ALMT">
     <groups>
       <group name="smoke">
         <method signature="LoginTest.validLogin()[pri:0, instance:com.hrms.testcases.LoginTest@5bc79255]" name="validLogin" class="com.hrms.testcases.LoginTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Smoke Test" duration-ms="15807" started-at="2020-09-13T16:48:54 ALMT" finished-at="2020-09-13T16:49:09 ALMT">
+    <test name="Smoke Test" duration-ms="20560" started-at="2020-09-13T16:56:11 ALMT" finished-at="2020-09-13T16:56:31 ALMT">
       <class name="com.hrms.testcases.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginTest@5bc79255]" name="setUp" is-config="true" duration-ms="9927" started-at="2020-09-13T16:48:54 ALMT" finished-at="2020-09-13T16:49:04 ALMT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginTest@5bc79255]" name="setUp" is-config="true" duration-ms="9700" started-at="2020-09-13T16:56:11 ALMT" finished-at="2020-09-13T16:56:20 ALMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.hrms.testcases.LoginTest@5bc79255]" name="validLogin" duration-ms="3227" started-at="2020-09-13T16:49:04 ALMT" finished-at="2020-09-13T16:49:07 ALMT">
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.hrms.testcases.LoginTest@5bc79255]" name="validLogin" duration-ms="3888" started-at="2020-09-13T16:56:20 ALMT" finished-at="2020-09-13T16:56:24 ALMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginTest@5bc79255]" name="tearDown" is-config="true" duration-ms="694" started-at="2020-09-13T16:49:09 ALMT" finished-at="2020-09-13T16:49:09 ALMT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginTest@5bc79255]" name="tearDown" is-config="true" duration-ms="687" started-at="2020-09-13T16:56:30 ALMT" finished-at="2020-09-13T16:56:31 ALMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
