@@ -13,7 +13,7 @@
     <classes>
       <class name="com.hrms.testcases.AddEmployeeTest">
         <methods>
-          <include name="addEmployee" invocation-numbers="3"/>
+          <include name="addEmployee" invocation-numbers="0 1 2 3 4"/>
           <include name="addMultipleEmployees"/>
           <include name="tearDown"/>
           <include name="setUp"/>

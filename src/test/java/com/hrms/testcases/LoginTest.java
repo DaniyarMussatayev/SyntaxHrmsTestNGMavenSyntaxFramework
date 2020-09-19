@@ -10,6 +10,7 @@ import com.hrms.utils.ConfigsReader;
 
 public class LoginTest extends CommonMethods {
 
+
 	@Test(groups = "smoke")
 	public void validLogin() {
 		sendText(login.userNametextBox, ConfigsReader.getPropValue("username"));
@@ -17,7 +18,12 @@ public class LoginTest extends CommonMethods {
 		click(login.btnLogin);
 		Assert.assertTrue(dash.welcome.isDisplayed());
 	}
-
+//  Task from 6th september - TestNG class05
+//	US8809: System should show error message when invalid login is perform
+//
+//	empty username and valid password --> Username cannot be empty
+//	valid username and empty password --> Password cannot be empty
+//	valid username and invalid password --> Invalid credentials
 	@Test(groups = "regression", dataProvider = "invalidCredentials")
 	public void invalidLogin(String username, String password, String errorMessage) {
 		sendText(login.userNametextBox, username);
@@ -29,7 +35,8 @@ public class LoginTest extends CommonMethods {
 	@DataProvider
 	public String[][] invalidCredentials() {
 		String[][] data = { { "", "Hum@nhrm123", "Username cannot be empty" },
-				{ "Admin", "", "Password cannot be empty" }, { "Admin", "Hum@nhrm12", "Invalid credentials" }, };
+				{ "Admin", "", "Password cannot be empty" }, 
+				{ "Admin", "Hum@nhrm12", "Invalid credentials" }, };
 		return data;
 	}
 }
