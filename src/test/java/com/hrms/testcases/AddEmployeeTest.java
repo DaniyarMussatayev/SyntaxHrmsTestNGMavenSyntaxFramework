@@ -15,7 +15,9 @@ import com.hrms.utils.ExcelUtility;
 
 public class AddEmployeeTest extends CommonMethods {
 	
-	//HW TestNG class 05: automate add employee test case 
+	//HW TestNG class 05: automate add employee test case
+	//Stundent's screenshots in Class 5
+
 
 	@Test(groups = "regression", dataProvider = "getData")
 	public void addEmployee(String firstName, String lastName, String userName, String password) {
